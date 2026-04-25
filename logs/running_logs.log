@@ -1,0 +1,42 @@
+[2026-04-25 21:14:03,355: INFO: main: Welcome to ML Batch P logs]
+[2026-04-25 21:36:08,523: INFO: common: YAML file config\config.yaml loaded successfully]
+[2026-04-25 21:37:34,398: INFO: common: YAML file config\config.yaml loaded successfully]
+[2026-04-25 21:37:34,408: INFO: common: YAML file params.yaml loaded successfully]
+[2026-04-25 21:37:34,409: INFO: common: created directory at: artifacts]
+[2026-04-25 21:37:34,412: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-04-25 21:37:43,172: INFO: 4037744573: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: E230:231245:876F7C:A6C4CA:69ECD754
+Accept-Ranges: bytes
+Date: Sat, 25 Apr 2026 16:07:35 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del-vibw2260036-DEL
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1777133255.250454,VS0,VE280
+Vary: Authorization,Accept-Encoding
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 0b5768f5175d8cf89381fe8835edde59f8cd9424
+Expires: Sat, 25 Apr 2026 16:12:35 GMT
+Source-Age: 0
+
+]
+[2026-04-25 21:48:19,887: INFO: main: >>>>>> Data Ingestion Stage started <<<<<<]
+[2026-04-25 21:48:19,889: INFO: common: YAML file config\config.yaml loaded successfully]
+[2026-04-25 21:48:19,894: INFO: common: YAML file params.yaml loaded successfully]
+[2026-04-25 21:48:19,895: INFO: common: created directory at: artifacts]
+[2026-04-25 21:48:19,895: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-04-25 21:48:19,895: INFO: data_ingestion: File already exists of size: ~ 11345 KB]
+[2026-04-25 21:48:20,624: INFO: main: >>>>>> Data Ingestion Stage completed <<<<<<
+
+x==========x]
