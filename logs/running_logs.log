@@ -58,3 +58,44 @@ x==========x]
 [2026-04-28 10:45:33,200: INFO: main: >>>>>> Data Ingestion Stage completed <<<<<<
 
 x==========x]
+[2026-04-28 10:50:07,570: INFO: main: >>>>>> Data Ingestion Stage started <<<<<<]
+[2026-04-28 10:50:07,572: INFO: common: YAML file config\config.yaml loaded successfully]
+[2026-04-28 10:50:07,574: INFO: common: YAML file params.yaml loaded successfully]
+[2026-04-28 10:50:07,574: INFO: common: created directory at: artifacts]
+[2026-04-28 10:50:07,574: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-04-28 10:50:07,576: INFO: data_ingestion: File already exists of size: ~ 11345 KB]
+[2026-04-28 10:50:08,067: INFO: main: >>>>>> Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2026-04-28 10:50:08,067: INFO: main: >>>>>> Prepare Base Model started <<<<<<]
+[2026-04-28 10:50:08,071: INFO: common: YAML file config\config.yaml loaded successfully]
+[2026-04-28 10:50:08,073: INFO: common: YAML file params.yaml loaded successfully]
+[2026-04-28 10:50:08,073: INFO: common: created directory at: artifacts]
+[2026-04-28 10:50:08,073: ERROR: main: 'ConfigurationManager' object has no attribute 'get_prepare_base_model_config']
+Traceback (most recent call last):
+  File "C:\Users\dell\Desktop\my_dlop\main.py", line 24, in <module>
+    prepare_base_model.main()
+  File "C:\Users\dell\Desktop\my_dlop\src\cnnClassifier\pipeline\stage_02_prepare_base_model.py", line 15, in main
+    prepare_base_model_config = config.get_prepare_base_model_config()
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigurationManager' object has no attribute 'get_prepare_base_model_config'
+[2026-04-28 10:51:50,454: INFO: main: >>>>>> Data Ingestion Stage started <<<<<<]
+[2026-04-28 10:51:50,457: INFO: common: YAML file config\config.yaml loaded successfully]
+[2026-04-28 10:51:50,459: INFO: common: YAML file params.yaml loaded successfully]
+[2026-04-28 10:51:50,461: INFO: common: created directory at: artifacts]
+[2026-04-28 10:51:50,462: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-04-28 10:51:50,462: INFO: data_ingestion: File already exists of size: ~ 11345 KB]
+[2026-04-28 10:51:50,744: INFO: main: >>>>>> Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2026-04-28 10:51:50,744: INFO: main: >>>>>> Prepare Base Model started <<<<<<]
+[2026-04-28 10:51:50,746: INFO: common: YAML file config\config.yaml loaded successfully]
+[2026-04-28 10:51:50,746: INFO: common: YAML file params.yaml loaded successfully]
+[2026-04-28 10:51:50,748: INFO: common: created directory at: artifacts]
+[2026-04-28 10:51:50,748: INFO: common: created directory at: artifacts/prepare_base_model]
+[2026-04-28 10:51:51,782: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2026-04-28 10:51:51,994: WARNING: config: TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.]
+[2026-04-28 10:51:52,084: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2026-04-28 10:51:52,287: INFO: main: >>>>>> Prepare Base Model completed <<<<<<
+
+x==========x]
