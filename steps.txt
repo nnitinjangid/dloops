@@ -83,3 +83,10 @@ For run this , we have to add this stage_02 in main.py
 from src.cnnClassifier.pipeline.stage_02_prepare_base_model import PrepareBaseModelTrainingPipeline
 
 ----------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------
+
+Now add prepare_callbacks in config.yaml 
+
+Now create file '03_prepare_callbacks.ipynb' in 'research' folder ---> and write in this.
+
+
